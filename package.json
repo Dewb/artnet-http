@@ -1,0 +1,19 @@
+{
+  "name": "artnet-http",
+  "version": "1.0.0",
+  "description": "convert HTTP requests to ArtNet",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "artnet": "^1.3.3",
+    "body-parser": "^1.17.2",
+    "command-line-args": "^4.0.6",
+    "command-line-usage": "^4.0.0",
+    "express": "^4.15.3"
+  }
+}
